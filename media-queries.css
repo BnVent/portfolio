@@ -1,0 +1,72 @@
+@media (max-width: 800px) {
+
+    html{
+        font-size: 0.75rem;
+    }
+
+    nav ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: -10vw;
+        width: 100%;
+        border-top: 1px solid #DBDBDB;
+        border-radius: 0 0 7px 7px;
+    }
+
+    nav ul li{
+        background-color: #FFF;
+        width: 100%;
+        padding: 2rem 0 3rem 2rem;
+        border-bottom: 1px solid #DBDBDB;
+        box-sizing: border-box;
+    }
+
+    nav ul li:last-child{
+        border-radius: 0 0 7px 7px;
+    }
+
+    nav #menu{
+        display: block;
+        text-align: right;
+        margin-right: 7vw;
+    }
+
+    main #content-container {
+        margin: 1rem 7vw;
+    }
+
+    #about-me p{
+        font-size: 1.5rem;
+    }
+
+    #about-me-flex-container {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .about-me-card {
+        width: max-content;
+        height: 4rem;
+    }
+
+    #captions-container {
+        flex-direction: column;
+    }
+
+    #tech-domain .caption {
+        width: 100%;
+    }
+
+    #projects-grid-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 23rem);
+    }
+
+    form input, form textarea{
+        width: 100%;
+        min-width: 100%;
+        box-sizing: border-box;
+    }
+}

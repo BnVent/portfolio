@@ -1,0 +1,94 @@
+{
+    "mainTechnologies": [
+        {
+            "name": "JavaScript",
+            "domain": "75",
+            "tags": ["language", "backend", "frontend"],
+            "iconURL": "assets/icons/javascript-original.svg"
+        },
+        {
+            "name": "HTML5",
+            "domain": "90",
+            "tags": ["language", "frontend"],
+            "iconURL": "assets/icons/html5-original.svg"
+        },
+        {
+            "name": "CSS3",
+            "domain": "90",
+            "tags": ["language", "frontend", "style", "UX/UI"],
+            "iconURL": "assets/css3-icon.ico"
+        },
+        {
+            "name": "Node",
+            "domain": "75",
+            "tags": ["environment", "backend", "desktop"],
+            "iconURL": "assets/node-icon.ico"
+        },
+        {
+            "name": "React",
+            "domain": "75",
+            "tags": ["framework", "frontend", "UX/UI"],
+            "iconURL": "assets/react-icon.ico"
+        },
+        {
+            "name": "Electron",
+            "domain": "40",
+            "tags": ["framework", "backend", "desktop"],
+            "iconURL": "assets/icons/electron-original.svg"
+        },
+        {
+            "name": "TypeScript",
+            "domain": "10",
+            "tags": ["language", "backend", "frontend"],
+            "iconURL": "assets/typescript-icon.ico"
+        },
+        {
+            "name": "Bulma",
+            "domain": "50",
+            "tags": ["frontend", "framework", "style"],
+            "iconURL": "assets/bulma-icon.ico"
+        },
+        {
+            "name": "MongoDB",
+            "domain": "75",
+            "tags": ["database", "no-sql"],
+            "iconURL": ""
+        }
+    ],
+
+    "modulesAndPackages": [
+        {
+            "name": "React Router",
+            "domain": "50",
+            "tags": ["react", "frontend"],
+            "iconURL": ""
+        },
+        {
+            "name": "Redux/Redux Toolkit",
+            "domain": "25",
+            "tags": ["react", "general", "utility"],
+            "iconURL": ""
+        },
+        {
+            "name": "Mongoose",
+            "domain": "75",
+            "tags": ["database", "no-sql"],
+            "iconURL": ""
+        }
+    ],
+
+    "otherTechnologies": [
+        {
+            "name": "Linux/Bash",
+            "domain": "40",
+            "tags": ["OS", "automatization", "desktop"],
+            "iconURL": ""
+        },
+        {
+            "name": "GIT",
+            "domain": "90",
+            "tags": ["versioning", "dev-tool", "team-work"],
+            "iconURL": ""
+        }
+    ]
+}

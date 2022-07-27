@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - @BnVent</title>
+    <link type="text/css" rel="stylesheet" href="style.css" />
+    <link type="text/css" rel="stylesheet" href="media-queries.css" />
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@400;600;700;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div id="hero-container">
+            <div id="language-selection">
+                <span>EN</span>
+                <span>|</span>
+                <span>ES</span>
+            </div>
+            <div id="profile-photo-container">
+                <img src="assets/profile-photo.jpg" draggable="false">
+            </div>
+            <p>
+                <span style="font-size: 2rem">Hi, my name is</span> <br>
+                <strong>Brandon Venturino</strong><br>
+                I'am a Full Stack developer
+            </p>
+
+        </div>
+        <div id="header-wallpaper"></div>
+
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about-me">Acerca de mí</a></li>
+            <li><a href="#tech-domain">Dominio técnico</a></li>
+            <li><a href="#projects">Proyectos</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+        <div id="nav-mobile-container">
+            <div id="language-selection-navbar">EN | ES</div>
+            <div id="menu" class="material-symbols-outlined">menu</div>
+        </div>
+    </nav>
+
+    <main>
+        <div id="transparency-layer"></div>
+        <div id="content-container">
+
+            <section id="about-me">
+                <h2>Acerca de mí</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, adipisci quasi numquam vero fugiat
+                    tempore iure consectetur optio cum veniam sunt nostrum nam nisi architecto necessitatibus magnam
+                    molestiae iste! Laudantium.</p>
+
+                <div id="about-me-flex-container">
+
+                    <div class="about-me-card">
+                        <span class="material-symbols-outlined">cake</span>
+                        <span>23 años</span>
+                    </div>
+
+                    <div class="about-me-card">
+                        <span class="material-symbols-outlined">location_on</span>
+                        <span style="display: inline-block">Concepción del Uruguay, Entre Ríos (🇦🇷)</span>
+                    </div>
+
+                    <div class="about-me-card">
+                        <span class="material-symbols-outlined">work</span>
+                        <span>+ 1 año de experiencia</span>
+                    </div>
+
+                </div>
+            </section>
+
+            <section id="tech-domain">
+                <h2>Dominio técnico</h2>
+
+                <div id="captions-container">
+                    <button class="caption selected">Lenguajes, frameworks y entornos</button>
+                    <button class="caption">Módulos y paquetes</button>
+                    <button class="caption">Otras tecnologías</button>
+                </div>
+
+                <table>
+
+                    <thead>
+                        <th>
+                            Tecnología
+                        </th>
+                        <th>
+                            Dominio
+                        </th>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </section>
+
+            <section id="projects">
+                <h2>Proyectos</h2>
+
+                <div id="projects-grid-container">
+                    <div class="card"></div>
+                    <div class="card"></div>
+                    <div class="card"></div>
+                </div>
+
+            </section>
+
+            <section id="contact">
+                <h2>Contacto</h2>
+
+                <form>
+                    <label>
+                        <input type="text" placeholder="Nombre">
+                    </label>
+
+                    <label>
+                        <input type="email" placeholder="Correo electrónico">
+                    </label>
+
+                    <textarea placeholder="Ingrese su mensaje"></textarea>
+
+                    <label>
+                        <button>Enviar</button>
+                    </label>
+                </form>
+            </section>
+
+        </div>
+
+        <footer>
+        </footer>
+    </main>
+
+
+    <script src="./script.js" type="module"></script>
+    <script src="./observer-controllers.js" type="text/javascript"></script>
+</body>
+
+</html>
