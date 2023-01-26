@@ -2,75 +2,75 @@
     "mainTechnologies": [
         {
             "name": "HTML5",
-            "iconURL": "assets/icons/html5-original.svg"
+            "iconURL": "./assets//icons/html5-original.svg"
         },
         {
             "name": "CSS3",
-            "iconURL": "assets/icons/css3-original.svg"
+            "iconURL": "./assets//icons/css3-original.svg"
         },
         {
             "name": "JavaScript",
-            "iconURL": "assets/icons/javascript-original.svg"
+            "iconURL": "./assets//icons/javascript-original.svg"
         },
         {
             "name": "Node.js",
-            "iconURL": "assets/icons/nodejs-original.svg"
+            "iconURL": "./assets//icons/nodejs-original.svg"
         },
         {
             "name": "React",
-            "iconURL": "assets/icons/react-original.svg"
+            "iconURL": "./assets//icons/react-original.svg"
         },
         {
             "name": "Electron",
-            "iconURL": "assets/icons/electron-original.svg"
+            "iconURL": "./assets//icons/electron-original.svg"
         },
         {
             "name": "MongoDB",
-            "iconURL": "assets/icons/mongodb-original.svg"
+            "iconURL": "./assets//icons/mongodb-original.svg"
         },
         {
             "name": "SASS",
-            "iconURL": "assets/icons/sass-original.svg"
+            "iconURL": "./assets//icons/sass-original.svg"
         },
         {
             "name": "PostgreSQL",
-            "iconURL": "assets/icons/postgresql-original.svg"
+            "iconURL": "./assets//icons/postgresql-original.svg"
         }
     ],
     "modulesAndPackages": [
         {
             "name": "React Router",
-            "iconURL": "assets/icons/npm-original.svg"
+            "iconURL": "./assets//icons/npm-original.svg"
         },
         {
             "name": "Redux/Redux Toolkit",
-            "iconURL": "assets/icons/redux-original.svg"
+            "iconURL": "./assets//icons/redux-original.svg"
         },
         {
             "name": "Mongoose",
-            "iconURL": "assets/icons/npm-original.svg"
+            "iconURL": "./assets//icons/npm-original.svg"
         },
         {
             "name": "Express",
-            "iconURL": "assets/icons/express-original.svg"
+            "iconURL": "./assets//icons/express-original.svg"
         },
         {
             "name": "Webpack",
-            "iconURL": "assets/icons/webpack-original.svg"
+            "iconURL": "./assets//icons/webpack-original.svg"
         },
         {
             "name": "JSON Web Token",
-            "iconURL": "assets/icons/npm-original.svg"
+            "iconURL": "./assets//icons/npm-original.svg"
         }
     ],
     "otherTechnologies": [
         {
             "name": "Linux/Bash",
-            "iconURL": "assets/icons/bash-original.svg"
+            "iconURL": "./assets//icons/bash-original.svg"
         },
         {
             "name": "GIT",
-            "iconURL": "assets/icons/git-original.svg"
+            "iconURL": "./assets//icons/git-original.svg"
         }
     ]
 }
