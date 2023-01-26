@@ -1,0 +1,187 @@
+$phone-width: 720px;
+
+#tech-domain {
+
+    #search-technology-button {
+        display: block;
+        max-width: max-content;
+        font-size: 1.5rem;
+        cursor: pointer;
+        padding: 0.75rem;
+        user-select: none;
+        border-radius: 50%;
+        background: linear-gradient(180deg, green, rgb(68, 190, 68));
+
+        @media (max-width: $phone-width) {
+            display: none;
+        }
+    }
+
+    #search-technology-button:hover {
+        background-color: rgba(255, 255, 255, 0.25);
+    }
+
+    #technology-search-container {
+        display: flex;
+        position: relative;
+        width: 0;
+        max-width: 0;
+        transition: max-width 1s;
+        overflow-x: hidden;
+
+        .material-symbols-outlined{
+            position: absolute;
+            top: 50%;
+            left: 0.75rem;
+            transform: translateY(-50%);
+            z-index: 6;
+            opacity: 0.7;
+
+            @media (max-width: $phone-width) {
+                left: 2rem;
+            }
+        }
+
+        @media (max-width: $phone-width) {
+            display: block;
+            width: 100%;
+            max-width: 100%;
+            margin: 1rem 0;
+        }
+    }
+
+    #search-technology-input {
+        font-size: 1rem;
+        border-radius: 8px;
+        border: none;
+        background-color: #111;
+        color: #fff;
+        z-index: 3;
+        padding-left: 2.75rem;
+        width: 100%;
+        box-sizing: border-box;
+
+        @media (max-width: $phone-width) {
+            padding: 1.5rem;
+            padding-left: 4.5rem;
+        }
+    }
+
+    #search-technology-input:focus{
+        outline: none;
+    }
+
+    #captions-container {
+        display: flex;
+        gap: 0.5rem;
+        margin: 1rem 0;
+
+        .selected {
+            background-color: rgba(0, 0, 0, 0.5);
+            outline: 2px solid #077c05;
+            color: #54CE52;
+        }
+
+        .selected::after {
+            background: linear-gradient(to right, transparent, #1f1f1f 75%);
+        }
+
+        @media (max-width: $phone-width) {
+            flex-direction: column;
+            gap: 1rem;
+        }
+    }
+
+    .caption {
+        position: relative;
+        border: none;
+        border-radius: 8px;
+        padding: 1rem 2rem;
+        font-weight: 600;
+        font-size: 1rem;
+        text-align: left;
+        width: max-content;
+        max-width: max-content;
+        background-color: transparent;
+        color: #FFF;
+        z-index: 10;
+        user-select: none;
+        overflow-x: hidden;
+        white-space: nowrap;
+        background-color: #2f2f2f;
+
+        @media (max-width: $phone-width) {
+            width: 100%;
+            max-width: 100%;
+            padding: 1.5rem 2rem;
+        }
+    }
+
+    .caption::after {
+        content: ' ';
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 100%;
+        width: 2rem;
+        border-radius: 8px;
+        background-color: red;
+        background: linear-gradient(to right, transparent, #2f2f2f 75%);
+    }
+
+    .caption:hover {
+        cursor: pointer;
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+
+    .caption:hover::after {
+        background: linear-gradient(to right, transparent, #9f9f9f 75%);
+    }
+
+    #tech-domain-gallery::-webkit-scrollbar {
+        height: 12px;
+        width: 12px;
+        background: #333;
+    }
+
+    #tech-domain-gallery::-webkit-scrollbar-thumb {
+        background-color: #444;
+    }
+
+    #tech-domain-gallery {
+        position: relative;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(9rem, 1fr));
+        gap: 1rem;
+        row-gap: 4rem;
+        background-color: rgba(0, 0, 0, 0.15);
+        width: 100%;
+        text-align: left;
+        border-radius: 10px;
+        padding: 4rem;
+        box-sizing: border-box;
+        text-align: center;
+        box-shadow: inset 0 -3px #3A3A3A;
+        min-height: 30rem;
+        max-height: 30rem;
+        overflow-y: scroll;
+        scrollbar-color: #333;
+
+        @media (max-width: $phone-width) {
+            grid-template-columns: repeat(2, 1fr);
+            padding: 3em 0rem;
+        }
+
+        img {
+            display: block;
+            margin: 0 auto;
+            width: 50%;
+            height: auto;
+            margin-bottom: 1rem;
+        }
+
+        p {
+            padding: 1rem;
+        }
+    }
+}

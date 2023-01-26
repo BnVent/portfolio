@@ -1,0 +1,106 @@
+$cell-width: 720px;
+
+header {
+    display: grid;
+    place-content: center;
+    position: relative;
+    min-height: 64vh;
+
+    @media (max-width: $cell-width) {
+        box-sizing: border-box;
+        padding: 4rem 0 8rem 0;
+    }
+
+    #header-wallpaper {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #54ce52;
+        z-index: -1;
+    }
+
+    #hero-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 6rem;
+
+        @media (max-width: 720px) {
+            flex-direction: column-reverse;
+            gap: 3rem;
+            text-align: center;
+        }
+    }
+
+    #profile-photo-container {
+        border-radius: 50%;
+        width: 13rem;
+        height: 13rem;
+
+        img {
+            width: 13rem;
+            height: 13rem;
+            border-radius: 50%;
+            transition: transform 0.25s, box-shadow 0.2s;
+            filter: drop-shadow(1px 1px 3px rgb(80, 80, 80));
+        }
+    }
+
+    p {
+        font-size: 2.5rem;
+        font-weight: 600;
+        color: #FFF;
+        font-stretch: expanded;
+        line-height: 150%;
+        min-width: 300px;
+        max-width: 30rem;
+        width: 30rem;
+        text-shadow: 1px 1px 3px rgb(80, 80, 80);
+
+        @media (max-width: $cell-width) {
+            width: 85%;
+        }
+    }
+}
+
+#language-selection-header {
+    position: absolute;
+    top: 3rem;
+    right: 4rem;
+    font-weight: bold;
+    color: #FFF;
+    font-size: 1.25rem;
+    border-radius: 32px;
+    z-index: 32;
+    background-color: #333;
+    cursor: pointer;
+    user-select: none;
+    padding: 0.75rem;
+
+    .separator {
+        margin: 0 0.25rem;
+    }
+
+    .language {
+        color: #fff;
+    }
+
+    .language.selected {
+        color: #000;
+    }
+
+    #selected-focus {
+        position: absolute;
+        left: 0.25rem;
+        top: 0.25rem;
+        padding: 0.25rem;
+        width: 2rem;
+        height: 2rem;
+        border-radius: 50%;
+        background-color: #FFF;
+        transition: left 0.5s;
+        z-index: -1
+    }
+}

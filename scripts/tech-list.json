@@ -1,46 +1,46 @@
 {
     "mainTechnologies": [
         {
+            "name": "JavaScript",
+            "iconURL": "assets/icons/javascript-original.svg"
+        },
+        {
             "name": "HTML5",
             "iconURL": "assets/icons/html5-original.svg"
         },
         {
             "name": "CSS3",
-            "iconURL": "assets/icons/css3-original.svg"
+            "iconURL": "assets/css3-icon.ico"
         },
         {
-            "name": "JavaScript",
-            "iconURL": "assets/icons/javascript-original.svg"
-        },
-        {
-            "name": "Node.js",
-            "iconURL": "assets/icons/nodejs-original.svg"
+            "name": "Node",
+            "iconURL": "assets/node-icon.ico"
         },
         {
             "name": "React",
-            "iconURL": "assets/icons/react-original.svg"
+            "iconURL": "assets/react-icon.ico"
         },
         {
             "name": "Electron",
             "iconURL": "assets/icons/electron-original.svg"
         },
         {
+            "name": "TypeScript",
+            "iconURL": "assets/typescript-icon.ico"
+        },
+        {
+            "name": "Bulma",
+            "iconURL": "assets/bulma-icon.ico"
+        },
+        {
             "name": "MongoDB",
-            "iconURL": "assets/icons/mongodb-original.svg"
-        },
-        {
-            "name": "SASS",
-            "iconURL": "assets/icons/sass-original.svg"
-        },
-        {
-            "name": "PostgreSQL",
-            "iconURL": "assets/icons/postgresql-original.svg"
+            "iconURL": "assets/mongodb-original.svg"
         }
     ],
     "modulesAndPackages": [
         {
             "name": "React Router",
-            "iconURL": "assets/icons/npm-original.svg"
+            "iconURL": ""
         },
         {
             "name": "Redux/Redux Toolkit",
@@ -48,19 +48,11 @@
         },
         {
             "name": "Mongoose",
-            "iconURL": "assets/icons/npm-original.svg"
+            "iconURL": ""
         },
         {
             "name": "Express",
             "iconURL": "assets/icons/express-original.svg"
-        },
-        {
-            "name": "Webpack",
-            "iconURL": "assets/icons/webpack-original.svg"
-        },
-        {
-            "name": "JSON Web Token",
-            "iconURL": "assets/icons/npm-original.svg"
         }
     ],
     "otherTechnologies": [

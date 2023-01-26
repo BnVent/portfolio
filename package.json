@@ -1,0 +1,26 @@
+{
+  "name": "bnvent-portfolio",
+  "version": "1.0.0",
+  "description": "Personal site to show projects and technologies with which I work.",
+  "main": "index.js",
+  "scripts": {
+    "sass:watch": "sass -w sass/main-style.scss:css/main-style.css --no-source-map"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BnVent/portfolio.git"
+  },
+  "keywords": [
+    "portfolio",
+    "personal-site"
+  ],
+  "author": "BnVent",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BnVent/portfolio/issues"
+  },
+  "homepage": "https://github.com/BnVent/portfolio",
+  "devDependencies": {
+    "sass": "^1.57.1"
+  }
+}
