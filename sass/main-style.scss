@@ -67,6 +67,10 @@ main {
         @media (max-width: 720px) {
             margin: 0rem 7vw;
         }
+
+        @media (min-width: 1640px) {
+            margin: 0 320px;
+        }
     }
 
     section {

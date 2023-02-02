@@ -28,6 +28,10 @@ nav {
             height: 1.5rem;
         }
 
+        @media (min-width: 1640px) {
+            margin: 0 320px;
+        }
+
         @media (max-width: 720px) {
 
             a {
@@ -62,7 +66,7 @@ nav {
         display: none;
         font-weight: bold;
 
-        .selected{
+        .selected {
             transition: color 0.5s;
             color: #54CE52;
         }
