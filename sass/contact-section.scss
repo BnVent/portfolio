@@ -2,14 +2,17 @@
     position: relative;
     box-sizing: border-box;
     margin-bottom: 0;
-    max-height: 110vh;
-    height: 110vh;
 
     @media (max-width: 600px) {
         padding: 0;
         margin: 0;
         background: none;
         box-shadow: none;
+    }
+
+    @media (min-height: 1000px) {
+        height: 850px;
+        max-height: 850px;
     }
 
     #contact-container {
@@ -20,12 +23,12 @@
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
-        top: 5rem;
         z-index: 32;
-
+        top: 5rem;
         min-width: 350px;
         width: 420px;
         max-width: 420px;
+        max-height: 720px;
 
         @media (max-width: 1280px) {
             box-sizing: border-box;
@@ -38,9 +41,9 @@
     }
 
     #conway-game {
-        min-height: 110vh;
         background-color: #111;
         overflow-y: hidden;
+        height: calc(5rem + 720px + 5rem);
 
         #more-info {
             position: absolute;
@@ -53,6 +56,10 @@
 
         #more-info:hover {
             opacity: 1.0;
+        }
+
+        @media (max-width: 1280px) {
+            height: calc(5rem + 600px + 5rem);
         }
     }
 
