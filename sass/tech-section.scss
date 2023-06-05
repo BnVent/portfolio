@@ -3,14 +3,23 @@ $phone-width: 720px;
 #tech-domain {
 
     #search-technology-button {
+        position: relative;
         display: block;
-        max-width: max-content;
         font-size: 1.5rem;
+        width: 3rem;
+        height: 3rem;
+        min-width: 3rem;
         cursor: pointer;
-        padding: 0.75rem;
         user-select: none;
         border-radius: 50%;
         background: linear-gradient(180deg, green, rgb(68, 190, 68));
+
+        .material-symbols-outlined{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
 
         @media (max-width: $phone-width) {
             display: none;

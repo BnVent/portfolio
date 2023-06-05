@@ -82,13 +82,18 @@ searchInput.oninput = event => {
     mapTableFromData(CURRENT_TABLE_INDEX)
 }
 
+let loading = false
+
 searchButton.onclick = () => {
+
+    if (loading) return;
+    loading = true
 
     const hideInput = () => {
 
         searchContainer.style.maxWidth = '0'
         searchInput.value = ' '
-        searchButton.innerText = 'search'
+        searchButton.children[0].innerText = 'search'
         setTimeout(() => { searchContainer.style.width = '0' }, 1000);
 
         // Remove filter condition on close search input
@@ -97,7 +102,7 @@ searchButton.onclick = () => {
     }
 
     const showInput = () => {
-        searchButton.innerText = 'close'
+        searchButton.children[0].innerText = 'close'
         searchInput.value = ''
         searchContainer.style.maxWidth = '32%'
         searchContainer.style.width = '32%'
@@ -106,4 +111,8 @@ searchButton.onclick = () => {
 
     if (searchButton.innerText === 'close') hideInput()
     else showInput()
+
+    setTimeout(() => {
+        loading = false
+    }, 1000);
 }
